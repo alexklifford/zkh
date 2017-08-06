@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Sitemap: http://siberia1.ru/sitemap.xml
+Host: siberia1.ru

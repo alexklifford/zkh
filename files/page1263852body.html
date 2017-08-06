@@ -1,0 +1,128 @@
+<!--allrecords-->
+<div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="293604" data-tilda-page-id="1263852" data-tilda-page-alias="ruby" data-tilda-formskey="970f9e2c6c552c5b2a73c4b3835258a7" >
+
+<div id="rec26525880" class="r" style="padding-top:140px;padding-bottom:84px; "  data-record-type="33"   >
+<!-- T017 -->
+<div class="t017">
+  <div class="t-container t-align_center">
+    <div class="t-col t-col_10 t-prefix_1">      
+      <div class="t017__uptitle t-uptitle t-uptitle_md" field="subtitle" style="">S1</div>      <div class="t017__title t-title t-title_xxs" field="title" style="">Изучаем язык программирования Ruby</div>      <div class="t017__descr t-descr t-descr_xs" field="descr" style="">СТАНДАРТЫ И ТЕХНОЛОГИИ</div>    </div>
+  </div>
+</div>
+</div>
+
+
+<div id="rec26525882" class="r" style="padding-top:56px;padding-bottom:56px; "  data-record-type="106"   >
+<!-- T004 -->
+<div class="t004">
+	<div class="t-container ">
+	  	<div class="t-col t-col_8 t-prefix_2">
+			<div field="text" class="t-text t-text_md  "><div style="font-size:16px;" data-customstyle="yes"><strong>Язык программирования Ruby</strong><br /> <br /> Ruby - это динамический язык программирования, простой и эффективный в действии. <br /> Исходный код Ruby открыт. <br /> <br /> <strong>Ruby - объектно ориентированный язык программирования. </strong><br /> <br /> Чтобы <strong>установить Ruby on Rails</strong> для windows, скачайте RailsInstaller <br /> <a href="http://railsinstaller.org/ru-RU">http://railsinstaller.org/ru-RU</a> <br /> <br /> Ruby понимает <strong>математические выражения</strong>. Ruby легко вычислит результат 4*10. <br /> Ruby легко запоминает имена: если мы заключим строку в кавычки, то получим значение строковой переменной(string). Например, "Ruby Digital". <br /> Язык понимает, как можно обращаться со строковыми переменными, поэтому набрав "Ruby Digital".reverse, мы получим текст задом-наперед "latigiD ybuR". <br /> Мы использовали первый метод в Ruby. Встроенных методов много, например .length считает количество символов в строке. <br /> "Ruby Digital".length <br /> 12 <br /> Этот метод используется, например, для проверки длины пароля на сайтах, когда нам говорят "Ваш пароль слишком короткий, пароль должен быть не меньше 6ти символов". <br /> Выражение "Ruby Digital" * 3 <br /> повторит строку 3 раза. <br /> <br /> Итак, мы узнали что Ruby обладает внутренней математикой и умеет работать с текстовыми строками. <br /> Мы поняли, что в Ruby есть встроенные методы, и как их можно применять. <br /> .reverse - зеркальный текст <br /> .length - посчитать количество символо. Метод работает со строками, массивами и хешами. <br /> * 3 - повторить строку <br /> <br /> <strong>Переменная</strong> - это контейнер. Числовые и строковые переменные имеют разный тип. <br /> Нельзя применять методы работы со строками к числам. <br /> 60.reverse <br /> вернет ошибку, ведь мы пытаемся использовать строковый метод, переменная не строковая. <br /> <br /> Что делать в этом случае? <br /> Использовать преобразование типов переменных. <br /> 60.to_s.reverse <br /> to_s - сокращение от to string (в строку) <br /> теперь Ruby сначала превратит 60 в строковую переменную с содержимым "60", затем зеркально отобразит и выдаст результат "06" <br /> <br /> Метод-конвертер "to" <br /> to_s превращает в строку <br /> to_i превращает в число <br /> to_a превращает в массив <br /> <br /> <strong>Что такое массив?</strong> <br /> Массив - это список. Пишется в квадратных скобках [кошка, собака, енот] <br /> <br /> Ruby умеет работать с массивами. Функция .max определяет максимальное число в массиве. <br /> [12, 54, 35].max <br /> вернет <br /> 54 <br /> <br /> <strong>Переменная</strong> - это контейнер. Попробуем сохранить массив в переменную numbers <br /> numbers = [12, 54, 35] <br /> теперь обратившись к numbers, мы будем получать содержимое этой переменной <br /> <br /> Метод .sort сортирует числа в массиве по порядку. <br /> ticket.sort <br /> =&gt; [12, 35, 54] <br /> <br /> <strong>Итак, мы научились создавать и присваивать значения переменным. <br /> Поняли, как преобразовывать переменные в другой тип. <br /> Научились создавать массивы и применять к ним встроенные функции Ruby. <br /> Также мы выяснили, что если мы сделаем что-то не так, Ruby вернет нам ошибку. </strong><br /> <br /> <strong>Метод = означает присвоение. </strong><br /> Например, мы имеем исходный текст "Ruby Digital - команда, которая занимается автоматизацией маркетинга" <br /> присвоим его переменной descriptor <br /> descriptor = "Ruby Digital - команда, которая занимается разработкой продающих сайтов и автоматизацией маркетинга" <br /> Теперь обратимся к переменной, найдем в ней слово "команда" и присвоим ему значение "компания" <br /> descriptor['команда'] = 'компания' <br /> Теперь в переменной descriptor хранится сделующий текст: <br /> "Ruby Digital - компания, которая занимается разработкой продающих сайтов и автоматизацией маркетинга". <br /> <br /> Особенность Ruby в том, что с ним во многих случаях можно общаться на человеческом языке. <br /> descriptor.include? "Ruby Digital" <br /> =&gt; true <br /> <br /> <strong>Как узнать все встроенные методы Ruby для строк? </strong><br /> Для этого есть подробная документация, которую можно найти здесь: <br /> <a href="http://ruby-doc.org/core-2.1.2/String.html">http://ruby-doc.org/core-2.1.2/String.html</a> <br /> <br /> В документации, мы можем найти, например, метод .downcase, который превращает текст в набранный строчными буквами. <br /> Или .delete, удаляющий заданное функции значение. <br /> "Ruby Digital".delete "y","gital" <br /> =&gt; "Rub Di" <br /> <br /> <strong>Что такое хеш?</strong> Это список из пар ключ - значение. <br /> В Ruby можно завести хеш: <br /> companies = {} <br /> хеш - аналог словаря <br /> companies["Freelancer"] = :bad <br /> companies["Ruby Digital"] = :amazing <br /> Теперь если мы заглянем в переменную, увидем пары объект - значение <br /> companies <br /> =&gt; {"Freelancer"=&gt;:bad, "Ruby Digital"=&gt;:amazing} <br /> <br /> Имея хеш такой, мы можем обратиться к любому его элементу и узнать значение. <br /> companies["Ruby Digital"] <br /> =&gt; :amazing <br /> <br /> Также мы можем просмотреть содержимое хеша: <br /> companies.keys <br /> =&gt; ["Freelancer", "Ruby Digital"] <br /> <br /> Ruby умеет общаться: <br /> 5.times { print "Ruby! " } <br /> =&gt; Ruby! Ruby! Ruby! Ruby! Ruby! <br /> <br /> 5.times - повторить несколько раз <br /> print - написать <br /> { print "Ruby! " } - конструкция, окруженная { ... } называется блоком <br /> <br /> Блок всегда прикреплен к методу. 5.times - это метод, к которому прикреплен блок { print "Ruby! " }. Таким образом, Ruby понимает, что нужно повторить <br /> 5.раз { действие в скобках } <br /> <br /> <strong>Итак, мы узнали что хэш - это словарь, который обрамляется фигурными скобками {}. <br /> мы узнали, как присваивать объекту :значение. <br /> Кроме того, мы разобрались что такое блоки { ... } и выяснили, что блок должен быть прикреплен к методу. </strong><br /> <br /> Чтобы открыть содержимое папки в Ruby, можно использовать метод Dir.entries <br /> Dir.entries "/" <br /> =&gt; [".", "..", "Новая папка", "Документы", "Проекты"] <br /> <br /> Чтобы найти все текстовые файлы в папке, можно указать, что мы ищем .txt <br /> Dir["/*.txt"] <br /> =&gt; [/комментарий.txt"] <br /> <br /> * означает любые сочетания символов <br /> <br /> Чтобы прочитать файл, используем уже знакомый нам метод print <br /> print File.read("/комментарий.txt") <br /> =&gt; "Текст комментария" <br /> <br /> Чтобы скопировать файл, обратимся к методу FileUtils.cp <br /> FileUtils.cp('/комментарий.txt', '/Home/комментарий.txt') <br /> <br /> Проверим, что файл скопирован в папку /Home/ <br /> Dir["/Home/*.txt"] <br /> =&gt; ["/Home/комментарий.txt"] <br /> <br /> <strong>Как с помощью Ruby дописать строку в файл? </strong><br /> Откроем файл <br /> File.open("/Home/комментарий.txt", "a") do |f| <br /> Допишем строку <br /> f &lt;&lt; "Ещё одна строка" <br /> Завершим метод <br /> end <br /> <br /> Проверим файл, через метод print <br /> print File.read("/Home/комментарий.txt") <br /> =&gt; "Текст комментария <br /> Ещё одна строка" <br /> <br /> <strong>Как узнать, когда в последний раз менялось содержимое файла? </strong><br /> File.mtime("/Home/comics.txt") <br /> =&gt; 2014-07-30 10:36:29 UTC <br /> <br /> Мы получили точное время, теперь попробуем получить время изменения файла с точностью до часа: <br /> File.mtime("/Home/comics.txt").hour <br /> =&gt; 10 <br /> <br /> <strong>Итак, мы научились: <br /> смотреть директории и искать в них файлы <br /> копировать файлы <br /> читать содержимое текстовых файлов <br /> дописывать содержимое текстовых файлов <br /> узнавать, когда в последний раз изменялся файл <br /> <br /> мы начинаем понимать, как работать с методами <br /> <br /> также мы применили конструкцию do ... end и увидели, как она работает <br /> <br /> Теперь создадим свой собственный метод. </strong><br /> метод начинается с частицы def, и заканчивается частицей end <br /> <br /> def load_comics( path ) <br /> <br /> comics = {} <br /> File.foreach(path) do |line| <br /> name, url = line.split(': ') <br /> comics[name] = url.strip <br /> end <br /> comics <br /> end <br /> <br /> comics = load_comics('/comics.txt') <br /> <br /> File.foreach - вывести последовательно все строки файла <br /> split - строковый метод, который делит строку на две части <br /> strip - убирает лишние пробелы вокруг URL <br /> <br /> <strong>Библиотеки</strong> <br /> <br /> Есть <strong>папка библиотек методов</strong>. Она может быть расположена в Dir["/Libraries/*"] <br /> <br /> Чтобы подкрузить новую библиотеку методов, достаточно дать команду <br /> require 'popup' <br /> эта команда подгрузит библиотеку popup в папку Libraries <br /> <br /> <strong>Попробуем воспользоваться одним из методов библиотеки</strong> и вызовем модальное окно <br /> Popup.goto "<a href="http://ruby-lang.org">http://ruby-lang.org</a>" <br /> появится модальное окно <br /> <br /> Чтобы задать содержимое модального окна, создадим к методу блок кода с самим содержимым <br /> Popup.make { <br /> h1 "My Links" <br /> link "Как выучить программирование на Ruby", "<a href="http://ruby-lang.org/">http://ruby-lang.org/</a>" <br /> list do <br /> p "Выучить методы" <br /> p "Выучить аргументы" <br /> p "Научиться работать с библиотеками" <br /> } <br /> <br /> <strong>Итак, мы научились создавать методы, подключать библиотеки и поняли, как вывести результат работы метода в модальное окно или на страницу. </strong><br /> <br /> <strong>Классы <br /> Что такое классы в Ruby? </strong><br /> На самом деле, мы уже хорошо знакомы с некоторыми классами Ruby: Hash, Array, String - всё это классы. <br /> <br /> <strong>Создадим свой класс </strong><br /> class BlogEntry <br /> attr_accessor :title, :time, :fulltext, :mood <br /> end <br /> <br /> entry = BlogEntry.new <br /> entry.title = "Ruby Digital делает продающие сайты!" <br /> entry.time = Time.now <br /> entry.mood = :sick <br /> entry.fulltext = "Ruby Digital - это команда профессиональных разработчиков и маркетологов, которые воплощают в жизнь самые смелые идеи!" <br /> <br /> чтобы <strong>просмотреть все настройки класса</strong>, достаточно набрать <br /> entry <br /> <br /> entry2 = BlogEntry.new("I Left my Hoodie on the Mountain!", :confused, "I am never going back to that mountain and I hope a giraffe steals it.") <br /> <br /> <strong>Итак, мы узнали что такое классы, и что они объединяют объекты. <br /> Мы увидели, как работают методы доступа на примере конструкции <br /> entry.time = Time.now <br /> Методы доступа используются, когда мы обращаемся извне объекта. <br /> Мы использовали экземпляры переменной <br /> @time = Time.now <br /> которые позволяют определить метод внутри объекта. </strong><br /> <br /><br /> <strong>Сортировка записей блога от новых к старым </strong><br /> blog.sort_by { |entry| entry.time }.reverse <br /> <br /> <strong>Поиск по блогу словосочетания Ruby Digital </strong><br /> blog.find_all { |entry| entry.fulltext.match(/Ruby Digital/i) } <br /> <br /> <strong>Добавить новую запись в блог </strong><br /> blog &lt;&lt; &lt;new_entry&gt; <br /> <br /> <strong>Вывести записи с упоминанием Ruby Digital </strong><br /> blog.map { "Ruby Digital" } <br /> <br /> <br /> <strong>Что такое Rails? <br /> Rails - это группа библиотек. </strong><br /> Например, библиотека работы со временем <br /> Time.now - 2.weeks <br /> даст текущее время за вычетом двух недель <br /> <br /> <br /></div></div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div id="rec26526172" class="r" style="padding-top:105px;padding-bottom:90px; " data-animationappear="off" data-record-type="696"   >
+<!-- t696 -->
+<div class="t696">
+<div class="t-container">
+  <div class="t-width t-width_8 t696__mainblock">
+      <div class="t696__mainwrapper">
+        <div class="t696__content" style=" border-width: 15px; box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.3);">
+         	<div class="t696__text-wrapper t-align_center">
+            <div class="t696__title t-title t-title_xs t-margin_auto" style="" field="title"><div style="font-size:38px;" data-customstyle="yes">Запишитесь на полный онлайн курс программирования на Ruby</div></div>            <div class="t696__descr t-descr t-descr_xl t-margin_auto" style="" field="descr"><div style="font-size:18px;" data-customstyle="yes">Стоимость полного курса 6000р. <br />На следующей неделе цена вырастет до 9000р, успейте подать заявку!<br /></div></div>          </div>
+                                    	  		                  	  		
+    <form id="form26526172" name='form26526172' role="form" action='https://forms.tildacdn.com/procces/' method='POST' data-formactiontype="2" data-inputbox=".t-input-group"   class="t-form js-form-proccess t-form_inputs-total_2 t-form_bbonly "  data-success-callback="t696_onSuccess"  >
+		    
+	  		    
+	        	            	                <input type="hidden" name="formservices[]" value="ed9238babb9939271b5242958ffad099" class="js-formaction-services">
+	            	                
+                            <input type="hidden" name="tildaspec-formname" tabindex="-1" value="Заявка на курсы Инстаграм">
+                    
+            <div class="js-successbox t-form__successbox t-text t-text_md" style="display:none;">Заявка получена. В ближайшее время с Вами свяжется наш менеджер.</div>                
+                        				
+            <div class="t-form__inputsbox">
+
+				                                                                                                
+                  	                  	  <div class="t-input-group t-input-group_nm" data-input-lid="1495630353482">	
+                                                                              <div class="t-input-block">
+                                                  
+                                <input type="text" name="Name" class="t-input js-tilda-rule t-input_bbonly" value="" placeholder="Имя" data-tilda-req="1" data-tilda-rule="name" style="color:#000000; border:1px solid #d6d6d6;  ">                                                                        
+                           
+						  <div class="t-input-error"></div>              
+                          </div>
+          			  </div>
+          			  
+                                                                                
+                  	                  	  <div class="t-input-group t-input-group_ph" data-input-lid="1495629963726">	
+                                                                              <div class="t-input-block">
+                                                  
+                                <input type="text" name="Phone" class="t-input js-tilda-rule  t-input_bbonly" value="" placeholder="Телефон" data-tilda-req="1" data-tilda-rule="phone"  style="color:#000000; border:1px solid #d6d6d6;  ">                                                
+                           
+						  <div class="t-input-error"></div>              
+                          </div>
+          			  </div>
+          			  
+                                                
+                                          
+                
+				                				                
+				<div class="t-form__errorbox-middle">
+					                <div class="js-errorbox-all t-form__errorbox-wrapper" style="display:none;">
+                    <div class="t-form__errorbox-text t-text t-text_md">
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p>
+                    </div>
+                </div>				</div>
+              
+                <div class="t-form__submit">
+                    <button type="submit" class="t-submit" style="color:#ffffff;background-color:#1f5bff;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">ЗАПИСАТЬСЯ</button>
+                </div>
+	                	                
+            </div>
+            
+            <div class="t-form__errorbox-bottom">
+            	                <div class="js-errorbox-all t-form__errorbox-wrapper" style="display:none;">
+                    <div class="t-form__errorbox-text t-text t-text_md">
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-all"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-req"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-email"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-name"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-phone"></p>
+                        <p class="t-form__errorbox-item js-rule-error js-rule-error-string"></p>
+                    </div>
+                </div>            </div>
+            
+        
+    </form>    
+    
+	
+		
+	<style>
+	#rec26526172 input::-webkit-input-placeholder {color:#000000; opacity: 0.5;}
+	#rec26526172 input::-moz-placeholder          {color:#000000; opacity: 0.5;}
+	#rec26526172 input:-moz-placeholder           {color:#000000; opacity: 0.5;}
+	#rec26526172 input:-ms-input-placeholder      {color:#000000; opacity: 0.5;}          
+	#rec26526172 textarea::-webkit-input-placeholder {color:#000000; opacity: 0.5;}
+	#rec26526172 textarea::-moz-placeholder          {color:#000000; opacity: 0.5;}
+	#rec26526172 textarea:-moz-placeholder           {color:#000000; opacity: 0.5;}
+	#rec26526172 textarea:-ms-input-placeholder      {color:#000000; opacity: 0.5;}                    
+	</style>
+	
+		 
+	                    	</div>
+			</div>
+  </div>
+</div>
+</div>
+
+</div>
+
+</div>
+<!--/allrecords-->
