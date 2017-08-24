@@ -188,3 +188,33 @@ RewriteRule ^zkh/9/$ page1352140.html [NC]
 RewriteRule ^zkh/10$ page1352162.html [NC]
 RewriteRule ^zkh/10/$ page1352162.html [NC]
 
+RewriteRule ^tigers1$ page1375114.html [NC]
+RewriteRule ^tigers1/$ page1375114.html [NC]
+
+RewriteRule ^about$ page1402340.html [NC]
+RewriteRule ^about/$ page1402340.html [NC]
+
+RewriteRule ^abela_otzyvy$ page1406542.html [NC]
+RewriteRule ^abela_otzyvy/$ page1406542.html [NC]
+
+RewriteRule ^abela_portfolio$ page1406708.html [NC]
+RewriteRule ^abela_portfolio/$ page1406708.html [NC]
+
+RewriteRule ^abela_zakaz$ page1406832.html [NC]
+RewriteRule ^abela_zakaz/$ page1406832.html [NC]
+
+RewriteRule ^abela_contacts$ page1421036.html [NC]
+RewriteRule ^abela_contacts/$ page1421036.html [NC]
+
+RewriteRule ^abela_nam_doveryayut$ page1422552.html [NC]
+RewriteRule ^abela_nam_doveryayut/$ page1422552.html [NC]
+
+RewriteRule ^trening-trenerov$ page1453000.html [NC]
+RewriteRule ^trening-trenerov/$ page1453000.html [NC]
+
+RewriteRule ^seo$ page1453642.html [NC]
+RewriteRule ^seo/$ page1453642.html [NC]
+
+RewriteRule ^zkh_first$ page1474568.html [NC]
+RewriteRule ^zkh_first/$ page1474568.html [NC]
+

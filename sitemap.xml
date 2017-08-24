@@ -1,15 +1,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>http://siberia1.ru/</loc>
-		<lastmod>2017-07-24T12:22:25+00:00</lastmod>
+		<lastmod>2017-08-21T18:45:28+00:00</lastmod>
 	</url>
 	<url>
 		<loc>http://siberia1.ru/abela</loc>
-		<lastmod>2017-08-05T17:50:02+00:00</lastmod>
+		<lastmod>2017-08-16T12:55:21+00:00</lastmod>
 	</url>
 	<url>
 		<loc>http://siberia1.ru/abela_auth</loc>
-		<lastmod>2017-08-05T17:53:13+00:00</lastmod>
+		<lastmod>2017-08-14T09:06:30+00:00</lastmod>
 	</url>
 	<url>
 		<loc>http://siberia1.ru/1</loc>
@@ -81,7 +81,7 @@
 	</url>
 	<url>
 		<loc>http://siberia1.ru/pm</loc>
-		<lastmod>2017-07-25T08:55:10+00:00</lastmod>
+		<lastmod>2017-08-13T11:10:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>http://siberia1.ru/instagram_academy</loc>
@@ -197,11 +197,11 @@
 	</url>
 	<url>
 		<loc>http://siberia1.ru/zkh/menu</loc>
-		<lastmod>2017-08-06T15:27:13+00:00</lastmod>
+		<lastmod>2017-08-08T07:00:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>http://siberia1.ru/zkh/o_prilozenii</loc>
-		<lastmod>2017-08-07T16:26:10+00:00</lastmod>
+		<lastmod>2017-08-24T15:05:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>http://siberia1.ru/zkh/ob_avtorah</loc>
@@ -245,6 +245,42 @@
 	</url>
 	<url>
 		<loc>http://siberia1.ru/zkh/10</loc>
-		<lastmod>2017-08-07T17:11:44+00:00</lastmod>
+		<lastmod>2017-08-08T12:35:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/tigers1</loc>
+		<lastmod>2017-08-08T17:04:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/about</loc>
+		<lastmod>2017-08-13T11:14:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/abela_otzyvy</loc>
+		<lastmod>2017-08-16T12:47:26+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/abela_portfolio</loc>
+		<lastmod>2017-08-14T09:51:02+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/abela_zakaz</loc>
+		<lastmod>2017-08-14T10:11:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/abela_contacts</loc>
+		<lastmod>2017-08-16T10:16:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/abela_nam_doveryayut</loc>
+		<lastmod>2017-08-16T12:53:16+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/seo</loc>
+		<lastmod>2017-08-21T18:45:44+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://siberia1.ru/zkh_first</loc>
+		<lastmod>2017-08-24T15:04:45+00:00</lastmod>
 	</url>
 </urlset>
